@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+/* body {
+  background-color: #cccccc;
+} */
+
+@layer components {
+  .bg-temp-progress {
+    background-image: linear-gradient(to right, #51a9e7, #c72323) !important;
+  }
+
+  .bg-hum-progress {
+    background-image: linear-gradient(to right, #3498db, #27ae60) !important;
+  }
+
+  .bg-light-progress {
+    background-image: linear-gradient(to right, #000, yellow) !important;
+  }
+}
